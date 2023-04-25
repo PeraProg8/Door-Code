@@ -1,0 +1,45 @@
+html, head, body{
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: lightgrey;
+    color: black;
+}
+
+.door{
+    background-color: transparent;
+    border-color: transparent;
+    text-align: center;
+    cursor: grab;
+    border-radius: 100px;
+    font-size: 250px;
+    text-shadow: black 3px 3px 1px;
+}.door:active{
+    cursor: grabbing;
+    text-shadow: yellow 3px 3px 1px;
+}
+
+.doorbell{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: -120px;
+    background-color: transparent;
+    border-color: transparent;
+    text-align: center;
+    cursor: grab;
+    border-radius: 100px;
+    font-size: 50px;
+    text-shadow: black 3px 3px 1px;
+}.doorbell:active{
+    cursor: grabbing;
+    text-shadow: yellow 3px 3px 1px;
+}
+
+#output{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 350px;
+    height: 100px;
+}
